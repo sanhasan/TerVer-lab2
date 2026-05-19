@@ -16,7 +16,7 @@ mt19937 rnd(2026);
 poisson_distribution<int> poisson(LAMBDA);
 
 signed main() {
-    freopen("task_3/3_table.txt", "w", stdout);
+    freopen("task_3.2/3_table.txt", "w", stdout);
     vector<double> res(n_res.size());
     for (size_t i = 0; i < methods.size(); ++i) {
         int n = n_res[i];

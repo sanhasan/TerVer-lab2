@@ -13,7 +13,7 @@ normal_distribution<double> normal_x(0.0, sqrt(0.5));
 normal_distribution<double> normal_yz(0.0, sqrt(0.25));
 
 signed main() {
-    freopen("task_4/4_table.txt", "w", stdout);
+    freopen("task_4.3/4_table.txt", "w", stdout);
     double sum = 0.0;
 
     for (int i = 0; i < ITER; ++i) {
